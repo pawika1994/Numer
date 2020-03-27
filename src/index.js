@@ -15,10 +15,7 @@ import FirstForward from './components/NumericalDiff/FirstForward';
 import SecondBackward from './components/NumericalDiff/SecondBackward';
 import SecondCentral from './components/NumericalDiff/SecondCentral';
 import SecondForward from './components/NumericalDiff/SecondForward';
-import CompositeSimpson from './components/IntegrationandDiff/CompositeSimpson';
-import CompositeTrapezoidal from './components/IntegrationandDiff/CompositeTrapezoidal';
-import SimpsonRule from './components/IntegrationandDiff/SimpsonRule';
-import TrapezoidalRule from './components/IntegrationandDiff/TrapezoidalRule';
+
 
 
 ReactDOM.render(
@@ -37,10 +34,7 @@ ReactDOM.render(
         <Route path="/SecondCentral" component={SecondCentral} />
         <Route path="/SecondForward" component={SecondForward} />
         
-        <Route path="/CompositeSimpson" component={CompositeSimpson} />
-        <Route path="/CompositeTrapezoidal" component={CompositeTrapezoidal} />
-        <Route path="/SimpsonRule" component={SimpsonRule} />
-        <Route path="/TrapezoidalRule" component={TrapezoidalRule} />
+
 
     </Router>, document.getElementById('root')
 );
